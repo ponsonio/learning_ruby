@@ -30,8 +30,5 @@ def baseball_team_list
   puts second_baseball_team_list
 
 
-def roaster *players
-  puts players
-end
 
-roaster "Altuve" , "Gatita", "Springer"
+  

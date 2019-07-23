@@ -13,6 +13,7 @@ def my_other_method
     x = lambda { return } 
     x.call
     p "Text from a method" 
+    
 end
 
 

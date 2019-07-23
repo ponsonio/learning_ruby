@@ -47,7 +47,8 @@ end
 
 other_roaster data
 
-def invoice options={}
+def invoice option
+    s={}
     puts options[:company]
     puts options[:total] 
     puts options[:something_else]  

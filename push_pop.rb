@@ -5,3 +5,5 @@ puts teams
 teams.pop()
 puts "========"
 puts teams
+
+
