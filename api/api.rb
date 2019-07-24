@@ -13,4 +13,8 @@ end
 
 
 eduteachional_resty = EduteachionalResty.new
-puts eduteachional_resty.posts
+#p eduteachional_resty.posts
+
+eduteachional_resty.posts.each do |post|
+    p "title: #{post['title']} title: #{post['description']} title: #{post['url']} " 
+end    
